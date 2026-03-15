@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function Layout() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [, setMobileOpen] = useState(false);
 
   return (
     <div className="min-h-full">
