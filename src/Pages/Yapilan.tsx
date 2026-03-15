@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FaTasks, FaUser, FaEnvelope, FaClock, FaCheckCircle } from "react-icons/fa";
 
 export default function Completed() {

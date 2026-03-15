@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FaUser, FaEnvelope, FaTasks, FaClock, FaTrash, FaEdit } from "react-icons/fa";
 
 export default function Home() {
