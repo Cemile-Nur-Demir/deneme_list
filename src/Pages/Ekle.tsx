@@ -29,7 +29,11 @@ export default function Ekle() {
     const tasks = JSON.parse(localStorage.getItem("tasks_v1") || "[]");
     localStorage.setItem("tasks_v1", JSON.stringify([newTask, ...tasks]));
 
-    alert(`Görev eklendi: ${newTask.gorevAdi} (${newTask.durationMinutes} dk)`);
+        // Yeni görevi ekle
+    const updatedTasks = [newTask, ...tasks];
+    localStorage.setItem("tasks_v1", JSON.stringify(updatedTasks));
+
+
 
     setFormData({
       adSoyad: "",
