@@ -1,5 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import { useState, useEffect } from "react";
+
 import Home from "./Pages/Home";
 import Yapilan from "./Pages/Yapilan";
 import Ekle from "./Pages/Ekle";
